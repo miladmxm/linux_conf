@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+"${PROGRAM_DIR}/v2ray/v2rayN"

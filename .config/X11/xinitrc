@@ -1,0 +1,9 @@
+xrdb -load "$HOME/.config/X11/Xresourcecs"
+setxkbmap -option caps:escape
+
+slayout &
+sxhkd &
+flyterm &
+picom -b
+
+exec awesome

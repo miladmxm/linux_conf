@@ -1,5 +1,5 @@
 /*/
-*
+/*
 !.git/
 !.gitignore
 .steampid
@@ -11,7 +11,7 @@
 !.config/ack/
 !.config/alacritty
 !.config/aliasrc
-!.config/awesome/
+!.config/awesome
 !.config/backup
 !.config/betterlockscreenrc
 !.config/bookmarkrc
@@ -61,8 +61,8 @@
 !.config/nitrogen/
 .config/nitrogen/nitrogen.cfg
 !.config/npm/
-!.config/nvim/
-.config/nvim/plugin/
+!.config/vim/
+.config/vim/plugin/
 !.config/pacmanfm/
 .config/pcmanfm/default/pcmanfm.conf
 !.config/pass-git-helper/

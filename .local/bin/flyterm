@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+SESSION_NAME="flyterm"
+CLASS_NAME="Flyterm"
+
+tmux has-session -t $SESSION_NAME 2>/dev/null
+
+if [ $? != 0 ]; then
+  alacritty --class $CLASS_NAME -e tmux new-session -s $SESSION_NAME
+else
+  alacritty --class $CLASS_NAME -e tmux attach-session -t $SESSION_NAME
+fi
+

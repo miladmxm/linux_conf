@@ -1,0 +1,27 @@
+#!/usr/bin/env zsh
+
+STEP="$1"
+
+CURRENT=$(pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%' | head -1 | tr -d '%')
+
+if [ $CURRENT -gt 100 ]; then
+    CURRENT=100
+elif [ $CURRENT -lt 0 ]; then
+    CURRENT=0
+fi
+
+if [[ "$STEP" == +*% ]]; then
+    NEW=$((CURRENT + ${STEP//[+%]/}))
+elif [[ "$STEP" == -*% ]]; then
+    NEW=$((CURRENT - ${STEP//[-%]/}))
+else
+    NEW=${STEP//[%]/}
+fi
+
+if [ "$NEW" -lt 0 ]; then
+    NEW=0
+elif [ "$NEW" -gt 100 ]; then
+    NEW=100
+fi
+
+pactl set-sink-volume @DEFAULT_SINK@ "${NEW}%"

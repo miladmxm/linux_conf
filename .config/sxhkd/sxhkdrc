@@ -1,0 +1,20 @@
+super+shift+d
+ rofi -show run
+
+super+Return
+ alacritty
+
+super + F{2,3,4,5}
+  {google-chrome-stable,code,pcmanfm,terminal -e mus}
+
+super + shift + control + alt + {2,3,4,5}
+  {google-chrome-stable,code,pcmanfm,terminal -e mus}
+
+XF86MonBrightness{Down,Up}
+  sudo light {-U,-A} 5
+
+XF86Audio{LowerVolume,RaiseVolume}
+  volume {-10%, +10%}
+
+XF86AudioMute
+  pactl set-sink-mute @DEFAULT_SINK@ toggle

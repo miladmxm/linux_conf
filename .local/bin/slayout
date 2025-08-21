@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+setxkbmap -layout us,ir -option grp:shifts_toggle

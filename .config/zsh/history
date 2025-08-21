@@ -1,0 +1,1031 @@
+sxhkd
+startx
+pactl list short sinks
+pactl set-sink-input-mute 0 false
+pactl list short sinks
+pactl list short sinks
+pactl list short sinks
+pactl list short sinks
+pactl list short sinks
+pactl list short sinks
+pactl list short sinks
+pactl list short sinks
+pactl list short sinks
+pactl list short sinks
+clear
+pacman -
+pacman -S sof-firmware
+clear
+pacman -
+pacman -
+pacman -S wireplumber
+pacman -pipewire-pulse
+pacman -S pipewire-pulse
+clear
+reboot
+pactl get-sink-volume @DEFAULT_SINK@"\
+
+pactl get-sink-volume @DEFAULT_SINK@
+ls
+clear
+ls
+cd /etc
+ls
+awrsome
+clear
+man awesome
+clear
+ls
+cd xdg
+ls
+cd
+cd /etc/xdg/awesome
+ls
+cat rc.lua
+clear
+ls
+cd
+ls
+man awesome
+clear
+ls
+exit
+ls
+cd ..
+ls
+cd sky
+ls
+ls
+code theme.lua
+code theme.lua
+code theme.lua
+vim theme.lua
+clear
+exit
+ls
+cd ..
+ls
+cd xresources
+ls
+code .
+cd ..
+code .
+cd /usr/share/awesome
+ls
+cd themes
+ls
+cd default
+ls
+code .
+ls
+startx
+cd /usr/share/X11/xkb/rules
+ls
+cat xorg.lst
+clear
+cd
+setxkbmap
+setxkbmap ir
+setxkbmap بش
+setxkbmap ز
+xkb
+ls
+clear
+reboot
+slayout
+slayout
+slayout
+slayout
+clear
+path
+where slayout
+cd .local/bin/slayout
+ls
+cd .local
+cd bin
+ls
+clear
+chmode +X slayout
+chmod +X slayout
+./slayout
+./slayout
+setxkbmap -layout us,ir -option grp:shifts_toggle\
+
+setxkbmap -layout us,ir -option grp:shifts_toggle\
+
+setxkbmap -layout us,ir -option grp:shifts_toggle\
+
+setxkbmap -layout us,ir -option grp:shifts_toggle\
+
+setxkbmap -layout us
+setxkbmap -layout ir
+setxkbmap -layout us
+setxkbmap -layout us,ir -option grp:shifts_toggle
+setxkbmap -layout us,ir -option grp:shifts_toggle
+setxkbmap -layout us,ir -option grp:shifts_toggle
+setxkbmap -layout us,ir -option grp:shifts_toggle
+localectl list-x11-keymap-options 
+localectl list-x11-keymap-layouts 
+localectl list-x11-keymap-variants ir
+localectl list-x11-keymap-variants us
+localectl list-x11-keymap-options | grep grp:
+clear
+setxkbmap -layout us,ir -option grp:shifts_toggle
+clear
+setxkbmap -option grp:alt_shift_toggle us, ir -variant ,phonetic
+setxkbmap -option grp:alt_shift_toggle us, ir -variant
+setxkbmap -option grp:alt_shift_toggle us, ir
+setxkbmap us
+setxkbmap ir
+setxkbmap ir
+setxkbmap ir
+setxkbmap us
+reload
+slayout
+setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll -layout us,ir -variant 3l,\
+
+startx
+clear
+startx
+clear
+logout
+startx
+reboot
+ls
+startx
+slayout
+setxkbmap -layout us,de
+setxkbmap -layout us,ir
+setxkbmap -layout us,ir
+setxkbmap
+setxkbmap
+setxkbmap is
+setxkbmap ir
+setxkbmap us
+clear
+localectl list-x11-keymap-options | grep grp:\
+
+clear
+reload
+ls
+cd .local/bin
+ls
+slayout
+clear
+xkdb
+xkd
+xkb
+xkb::
+sxhkd
+clear
+startx
+startx
+clear
+logout
+startx
+ls
+cd .config/sxhkd
+ls
+vim sxhkdrc
+clear
+reboot
+sxhkd
+sxhkd
+clear
+sxhkd
+clear
+code .
+ssddd
+clear
+exit
+code .
+quit
+clear
+exit
+chrome
+google-chrome-stable
+exit
+startx
+startx
+pactl get-sink-volume @DEFAULT_SINK@
+reboot
+startx
+startx
+startx
+reboot
+exit
+startx
+startx
+slayout
+reboot
+startx
+reboot
+startx
+xprop
+clear
+xprop
+slayout
+xf86-input-wacom
+xsetwacom
+xinput list
+xsetwacom --list devices
+clear
+pacman -Ss xf86-input-wacom
+pacman -Sy xf86-input-wacom
+xsetwacom
+xsetwacom --list devices
+clear
+startx
+clear
+logout
+startx
+shutdown -P now
+exit
+exit
+exit
+exit
+echo $TERM
+exit
+ls
+clear
+clear
+exit
+alacritty --class "Flyterm"
+exit
+px
+ps
+who
+w
+ls
+exit
+nmcli
+nmcli show devices
+nmcli devices list
+nmcli devices wifi list
+nmcli device list
+nmcli device wifi list
+exit
+cd .local/bin
+ls
+chmod +x flyterm
+./flyterm
+tmux has-session -t "flyterm"
+tmux
+clear
+pacman -Sy tmux
+clear
+flyterm
+ls
+clear
+exit
+flyterm
+kill awesome
+plikk awesome
+pkill awesome
+startx
+logout
+pkill code
+exit
+flyterm
+flyterm
+exit
+startx
+clear
+startx
+clear
+logout
+startx
+reboot
+sudo v2ray
+sudo v2rayN
+v2ray
+clear
+ls
+exit
+startx
+reload
+reboot
+flyterm
+startx
+logout
+exit
+cd /home/milad/.local/bin
+ls
+chmod +x battery
+battery
+ls
+clear
+sudo battery
+ba
+battery
+cd /sys/class/power_supply
+ls
+cd BAT1
+ls
+clear
+ls
+cat charge_full
+head -n 1
+head -n 1 charge_full
+bc
+    echo "a = 5; b = 3; a * b" | bc
+pacman -Ss bc
+clear
+exit
+pwd
+cd
+cd /etc/xdg/awesome
+ls
+code .
+exit
+pkill awesome
+battry
+battery
+xkb::group_changed
+s
+s
+ls
+code /usr/share/awesome/
+startx
+startx
+clear
+logout
+pacman -Sy bc
+kbdcfg
+setxkbmap -layout "us,il" -option ""
+setxkbmap -layout "us,il" -option ""
+setxkbmap -layout "us,ir" -option ""
+setxkbmap -layout "us,ir" -option ""
+setxkbmap -layout "us,ir"
+setxkbmap -layout "us,ir"
+setxkbmap -layout "us,ir"
+setxkbmap -layout "us,ir"
+زك�ثشق
+زك�ثشق
+clear
+setxkbmap -layout "$(setxkbmap -query | awk '/layout/{print $2}' | \\
+    awk -F, '{if ($1=="us") print "ir,us"; else print "us,ir"}')" -option "grp:alt_shift_toggle"\
+
+setxkbmap -layout "$(setxkbmap -query | awk '/layout/{print $2}' | \\
+    awk -F, '{if ($1=="us") print "ir,us"; else print "us,ir"}')" -option "grp:alt_shift_toggle"\
+
+setxkbmap -layout "$(setxkbmap -query | awk '/layout/{print $2}' | \\
+    awk -F, '{if ($1=="us") print "ir,us"; else print "us,ir"}')" -option "grp:alt_shift_toggle"\
+
+شصك�
+setxkbmap -layout "$(setxkbmap -query | awk '/layout/{print $2}' | \\
+    awk -F, '{if ($1=="us") print "ir,us"; else print "us,ir"}')" -option "grp:alt_shift_toggle"\
+
+awk
+celar
+clear
+clear
+setxkbmap -layout "$(setxkbmap -query | awk '/layout/{print $2}' | \\
+    awk -F, '{if ($1=="us") print "ir,us"; else print "us,ir"}')"\
+
+setxkbmap -query
+awk '/layout"
+awk -F ir
+clear
+awk -F
+awk -F, ir
+awk -F, 'print ir'
+awk -F, '{print ir}'
+clear
+clear
+code .
+exit
+[200~setxkbmap -v us
+setxkbmap -v us\
+
+setxkbmap -v us\
+clear
+clear
+exit
+setxkbmap -v us\
+
+setxkbmap  us\
+
+setxkbmap  ir\
+
+setxkbmap  us\
+
+startx
+reboot
+startx
+shutdown -P now
+picom
+pacman -Ss picom
+pacman Sy picom
+pacman -Sy picom
+clear
+picom --config ./.config/picom/picom.conf
+ls
+cd Devlopments
+ls
+cd dotfiles
+ls
+ls -al
+cd .config
+ls
+cd dmenu
+ls
+code dmenurc
+ls
+cd ..
+ls
+clear
+ls
+cp picom ../.config
+clear
+cp -r picom ../.config
+ls
+cd
+clear
+startx
+reboot
+ls
+clear
+reload
+picom -d
+ls
+cd /usr/bin/awesome
+ls
+ls
+cd /usr
+ls
+cd bin
+ls
+cd awesome
+cd ..
+ls
+cd share
+ls
+cd ..
+ls
+cd local
+ls
+cd ..
+clear
+cd bin
+ls
+clear
+ls
+celar
+clear
+man awesome
+startx
+clear
+startx
+startx
+clear
+startx
+clear
+reload
+reload
+clear
+cd /etc/xdg
+ls
+cd awesome
+ls
+code rc.lua
+GTK_THEME=Adwaita:dark
+xrdb -load "$HOME/.config/X11/Xresourcecs"\
+
+gsettings
+gsettings | gr
+gsettings | gr "dark"
+gsettings | grep "ligth"
+xfconf-query
+xfconf-query
+زك�ثشق
+clear
+Adwaita-dark
+reboot
+startx
+startx
+reboot
+code Devlopments/dotfiles
+startx
+logout
+startx
+code Devlopments/dotfiles
+reboot
+reboot
+client
+awesome client
+code .
+code .
+
+
+celar
+clear
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+wmctrl -l
+awesome-client
+clear
+awesome-client 'for c in client.get() do print(c.name .. " (" .. c.class .. ")") end'
+awesome-client
+awesome-client 'local tag = mouse.screen.selected_tag; for c in tag:clients() do print(c.name .. " (" .. c.class .. ")") end'
+hkk
+ljfljfdls
+clear
+top
+exit
+K
+
+celar
+clear
+op
+exit
+pacman -S scrot
+ls
+cd Pics
+ls
+clear
+     scrot filename.png
+ls
+ls
+exit
+startx
+timedatectl
+sudo timedatectl set-ntp true
+timedatectl
+timedatectl status\
+
+reboot
+startx
+shutdown -P now
+nm
+ls
+cd Downloads
+ls
+unzip landingtapsi.zip
+cd landingtapsi
+ls
+code .
+git init
+clear
+git add .
+git commit -m 'first commit '
+git config --global user.email "miladmxm12@gmail.com"
+git config --global user.name "miladmxm"
+git commit -m 'first commit '
+clear
+startx
+cd Downloads
+ls
+zip -r landingtapsi.zip landingtapsi
+pacman -Ss zip
+pacman -Sy zip
+zip -r landingtapsi.zip landingtapsi
+ls
+nwg-look
+pacman -Ss nwg-look
+xfconf-query
+clear
+shutdown -P now
+pacman -Ss docker
+clear
+exit
+ls
+cd Downloads
+ls
+unzip landingtapsi.zip
+clear
+exit
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash\
+
+nvm
+exit
+nvm
+ls
+ls -al
+cd .config
+ls
+cd nvm
+ls
+zshrv
+zshrc
+ls
+clear
+./nvm.sh
+source ./nvm.sh
+ls
+./install.sh
+clear
+zshrc
+ls
+reload
+nvm
+clear
+nvm list
+cd
+ls
+clear
+echo env
+clear
+env
+zshrc
+reload
+nvm
+clear
+nvm remote-list
+clear
+nvm ls
+nvm remote-ls
+clear
+nvm list
+nvm install 22
+clear
+node
+npm
+clear
+nvm install 24
+node
+clear
+nvm list
+exit
+node
+clear
+nodejs
+clear
+docker
+clear
+node
+    sudo pacman -Syu\
+Q\
+
+lcear
+clear
+pacman -Ss docker
+pacman -Sy docker
+docker
+clear
+docker images
+docker login
+docker login
+clear
+docker login
+clear
+docker ofline
+exit
+startx
+reboot
+node
+docker build -t daroo
+docker build -t daroo .
+sudo docker build -t daroo .
+clear\\
+clear
+clear
+ls
+npm start
+npm install
+npm start
+clear
+npm i -D typescript
+tsc --init
+npx tsc --init
+cd Downloads
+mkdir nodecli
+mv node-cli-app.zip node
+mv node/node-cli-app.zip ..
+ls
+rm node
+ls
+clear
+mv node-cli-app.zip nodecli
+cd nodecli
+ls
+unzip node-cli-app.zip
+ls
+clear
+exit
+cd ..
+ls
+cd nodecli
+ls
+cp tsconfig.json ../LandingTapsi
+npm start
+npm start
+npm start
+node ./src/index.ts
+node
+clear
+cd ..
+ls
+ls
+npm start
+npm i @types/express
+npm i @types/node
+npm i @types/request-ip
+npm i @types/cors
+npm i @types/nodemailer
+npm i envalid
+cd src
+ls
+node
+clear
+cd ..
+ls
+npm i npm i valibot
+npm i valibot
+lcear
+clear
+exit
+    sudo pacman -S docker
+clear
+    sudo systemctl start docker.service\
+
+echo $USER
+sudo usermod -aG docker $USER
+docker --version\
+
+docker run hello-world
+sudo docker run hello-world
+clear
+exit
+reload
+exit
+cd /etc/systemd
+ls
+cat resolved.conf
+clear
+ls -al resolved.conf
+exit
+sudo -e /etc/systemd/resolved.conf
+systemd status NetwordManager
+systemctl status networkmanager
+systemctl status NetworkManager
+systemctl reload NetworkManager
+sudo systemctl reload NetworkManage
+sudo systemctl reload NetworkManager
+sudo systemctl restart NetworkManager
+clear
+sudo systemctl status NetworkManager
+sudo -e /etc/systemd/resolved.conf
+sudo systemctl restart NetworkManager
+sudo systemctl status NetworkManager
+startx
+node cron.ts
+clear
+ls
+node src/cron.ts
+node src/cron.ts
+node src/cron.ts
+node 
+node -e console.log("helo")
+node -e 'console.log("helo")'
+node src/utils/dateString.ts
+node src/utils/dateString.ts
+node src/utils/dateString.ts
+clear
+npm start
+npm start
+clear
+node -v
+nvm list
+nvm use 24
+node -v
+clear
+npm start
+npm start
+clear
+npm start
+npm start
+clear
+npm start
+npm start
+clear
+npm start
+npm start
+clear
+reboot
+ls
+cd /etc
+ls
+clear
+clear
+exit
+ls
+cd /etc/systemd/network
+ls
+ls
+ls -al
+nmcli con mod 
+nmcli con show
+nmcli con mod "Note13pro" ipv4.dns "178.22.122.100,185.51.200.2"
+sudo systemctl restart NetworkManager
+docker login
+ exit
+docker images
+exit
+        sudo systemctl status docker
+        sudo systemctl start docker
+        sudo systemctl enable docker\ 
+        sudo systemctl enable docker
+exit
+exit
+docker containers
+docker container
+celar
+clear
+docker -it tabsi 
+docker exec it tabsi bash
+docker exec -it tabsi bash
+docker exec -it tabsi
+docker exec -it tabsi bash
+docker ps
+docker exec -it 2a266 bash
+docker exec -it 2a26604 bash
+clear
+git status
+clear
+git add .
+clear
+git commit -m "config docker file"
+clear
+cd ..
+ls
+rm -r nodecli
+ls
+zip -r LandingTapsi.zip LandingTapsi
+ls
+clear
+exit
+clear
+git init
+git add .
+git commit -m "typescript working"
+clear
+docker run build -t "DarooLanding"
+docker login
+docker login
+clear
+docker run build -t "DarooLanding"
+docker run build -t "DarooLanding" .
+docker
+clear
+docker images
+docker images
+docker run build -t "Tapsi" .
+docker run build "Tapsi" .
+dokcer loign
+docker login
+clear
+docker run build "Tapsi" .
+docker build -t "Tapsi" .
+clear
+docker build -t tabsi
+clear
+pacman -Ss docker
+clear
+docker build -t tabsi .
+clear
+clear
+docker build -t tabsi .
+clear
+docker images
+docker run tabsi
+clear
+docker run -p 3000:3000 tabsi
+clear
+docker run -p 3000:3000 tabsi
+clear
+exit
+nmcli con mod "Note13pro" ipv4.dns ""
+systemctl reload NetworkManager
+sudo systemctl reload NetworkManager
+sudo systemctl restart NetworkManager
+clear
+exit
+cd ..
+clear
+ls
+cd LandingTapsi
+ls
+rm -r node_modules
+ls
+cd ..
+ls
+cp LandingTapsi.zip ..
+ls
+rm LandingTapsi.zip
+zip -r LandingTapsi.zip LandingTapsi
+startx
+cat /etc/systemd/resolved.conf
+sudo -e /etc/systemd/resolved.conf
+clear
+ls
+sudo -e /etc/resolv.conf
+systemctl reload NetworkManager
+sudo systemctl restart NetworkManager
+sudo -e /etc/resolv.conf
+clewar
+clear
+clear
+pacman -Sy docker-compose docker-buildx
+clear
+shutdown -P now
+nmcli connection show
+nmcli device wifi list
+clear
+nmcli device wifi connect "Note13pro" "
+nmcli device wifi connect "Note13pro" password "12345678M"
+nmcli device wifi connect "Note13pro" password "12345678M"
+clear
+nmcli device wifi connect "Note13pro"
+nmcli connection mod "Note13pro" password "12345678M"
+nmcli connection show
+clear
+nmcli device wifi list
+nmcli device wifi connect "Note13pro" password "12345678M"
+clear
+nmcli -t -f "Note13pro" con
+nmcli device wifi list
+nmcli device wifi -t -f "Note13pro" con
+nmcli device wifi -f "Note13pro" con
+nmcli c delete Note13pro
+clear
+nmcli device wifi list
+nmcli device wifi connect "Note13pro" password "12345678M"
+clear
+exit
+ls
+cd .local/bin
+ls
+chmod +x vol
+vol 2
+vol 122
+clear
+vol
+vol
+vol
+vol
+vol
+vol
+pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%' | head -1 | tr -d '%'
+pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%'
+pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%' | head -1
+pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%' | head -1
+pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%' | head -1 | tr -d '%'
+vol 15%
+vol 15%
+vol 15%
+vol 15%
+vol 15%
+vol 15%
+vol 15%
+vol 15%
+vol 15%
+vol 15%
+vol 150%
+vol 150%
+vol +150%
+vol -150%
+clear
+vol -150%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -50%
+vol -504%
+vol 504%
+vol 504%
+vol 504%
+vol 504%
+vol 504%
+vol +504%
+vol 504%
+vol 504%
+volume 40%
+volume 408%
+volume -40%
+volume -40%
+volume -40%
+volume -40%
+clear
+volume -40%
+startx
+clear
+exit
