@@ -14,6 +14,7 @@ PRIMARY="$(tput setaf 6)"
 RESET="$(tput sgr0)"
 
 export PS1="%{$PRIMARY%}%1~ $ %{$RESET%} "
+export GTK2_RC_FILES="${XDG_CONFIG_HOME}/gtk-2.0/gtkrc-2.0"
 
 # cowsay "Hello, Milad"
 

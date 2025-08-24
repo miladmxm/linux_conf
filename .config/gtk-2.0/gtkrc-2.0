@@ -1,11 +1,11 @@
 # DO NOT EDIT! This file will be overwritten by LXAppearance.
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
-include "/home/skill/.gtkrc-2.0.mine"
-gtk-theme-name="Flat-Remix-GTK-Yellow-Dark"
-gtk-icon-theme-name="Flat-Remix-Yellow-Dark"
-gtk-font-name="DejaVu Sans 10"
-gtk-cursor-theme-name="capitaine-cursors-light"
+include "/home/milad/.gtkrc-2.0.mine"
+gtk-theme-name="Flat-Remix-GTK-Blue-Dark"
+gtk-icon-theme-name=" Flat-Remix-GTK-Blue "
+gtk-font-name=" Roboto "
+gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
 gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR

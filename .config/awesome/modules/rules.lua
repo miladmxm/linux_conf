@@ -61,6 +61,10 @@ local rules = {
     properties = { tag = tags[7] },
   },
   {
+    rule = { class = "Pcmanfm" },
+    properties = { tag = tags[4] },
+  },
+  {
     rule = { class = "Code" },
     properties = { tag = tags[3] },
   },

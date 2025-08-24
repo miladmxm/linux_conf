@@ -7,8 +7,11 @@ local colors = require("modules.colors")
 local themes_path = gfs.get_themes_dir()
 
 local theme = dofile(themes_path.."default/theme.lua")
+theme.assets_path = os.getenv("HOME") .. "/.config/awesome/assets/"
+theme.icons_path = theme.assets_path .. "/icons/"
 
 theme.font          = "Roboto 12"
+theme.font_icon          = "Font Awesome 7 Free"
 theme.fg            = colors.fg
 theme.bg            = colors.bg
 

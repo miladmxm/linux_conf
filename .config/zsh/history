@@ -1,203 +1,3 @@
-sxhkd
-startx
-pactl list short sinks
-pactl set-sink-input-mute 0 false
-pactl list short sinks
-pactl list short sinks
-pactl list short sinks
-pactl list short sinks
-pactl list short sinks
-pactl list short sinks
-pactl list short sinks
-pactl list short sinks
-pactl list short sinks
-pactl list short sinks
-clear
-pacman -
-pacman -S sof-firmware
-clear
-pacman -
-pacman -
-pacman -S wireplumber
-pacman -pipewire-pulse
-pacman -S pipewire-pulse
-clear
-reboot
-pactl get-sink-volume @DEFAULT_SINK@"\
-
-pactl get-sink-volume @DEFAULT_SINK@
-ls
-clear
-ls
-cd /etc
-ls
-awrsome
-clear
-man awesome
-clear
-ls
-cd xdg
-ls
-cd
-cd /etc/xdg/awesome
-ls
-cat rc.lua
-clear
-ls
-cd
-ls
-man awesome
-clear
-ls
-exit
-ls
-cd ..
-ls
-cd sky
-ls
-ls
-code theme.lua
-code theme.lua
-code theme.lua
-vim theme.lua
-clear
-exit
-ls
-cd ..
-ls
-cd xresources
-ls
-code .
-cd ..
-code .
-cd /usr/share/awesome
-ls
-cd themes
-ls
-cd default
-ls
-code .
-ls
-startx
-cd /usr/share/X11/xkb/rules
-ls
-cat xorg.lst
-clear
-cd
-setxkbmap
-setxkbmap ir
-setxkbmap بش
-setxkbmap ز
-xkb
-ls
-clear
-reboot
-slayout
-slayout
-slayout
-slayout
-clear
-path
-where slayout
-cd .local/bin/slayout
-ls
-cd .local
-cd bin
-ls
-clear
-chmode +X slayout
-chmod +X slayout
-./slayout
-./slayout
-setxkbmap -layout us,ir -option grp:shifts_toggle\
-
-setxkbmap -layout us,ir -option grp:shifts_toggle\
-
-setxkbmap -layout us,ir -option grp:shifts_toggle\
-
-setxkbmap -layout us,ir -option grp:shifts_toggle\
-
-setxkbmap -layout us
-setxkbmap -layout ir
-setxkbmap -layout us
-setxkbmap -layout us,ir -option grp:shifts_toggle
-setxkbmap -layout us,ir -option grp:shifts_toggle
-setxkbmap -layout us,ir -option grp:shifts_toggle
-setxkbmap -layout us,ir -option grp:shifts_toggle
-localectl list-x11-keymap-options 
-localectl list-x11-keymap-layouts 
-localectl list-x11-keymap-variants ir
-localectl list-x11-keymap-variants us
-localectl list-x11-keymap-options | grep grp:
-clear
-setxkbmap -layout us,ir -option grp:shifts_toggle
-clear
-setxkbmap -option grp:alt_shift_toggle us, ir -variant ,phonetic
-setxkbmap -option grp:alt_shift_toggle us, ir -variant
-setxkbmap -option grp:alt_shift_toggle us, ir
-setxkbmap us
-setxkbmap ir
-setxkbmap ir
-setxkbmap ir
-setxkbmap us
-reload
-slayout
-setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll -layout us,ir -variant 3l,\
-
-startx
-clear
-startx
-clear
-logout
-startx
-reboot
-ls
-startx
-slayout
-setxkbmap -layout us,de
-setxkbmap -layout us,ir
-setxkbmap -layout us,ir
-setxkbmap
-setxkbmap
-setxkbmap is
-setxkbmap ir
-setxkbmap us
-clear
-localectl list-x11-keymap-options | grep grp:\
-
-clear
-reload
-ls
-cd .local/bin
-ls
-slayout
-clear
-xkdb
-xkd
-xkb
-xkb::
-sxhkd
-clear
-startx
-startx
-clear
-logout
-startx
-ls
-cd .config/sxhkd
-ls
-vim sxhkdrc
-clear
-reboot
-sxhkd
-sxhkd
-clear
-sxhkd
-clear
-code .
-ssddd
-clear
-exit
 code .
 quit
 clear
@@ -1029,3 +829,233 @@ volume -40%
 startx
 clear
 exit
+startx
+pactl get-sink-volume @DEFAULT_SINK@
+clear
+aclear
+clear
+pactl set-sink-volume @DEFAULT_SINK@ +100%
+pactl get-sink-volume @DEFAULT_SINK@
+pactl set-sink-volume @DEFAULT_SINK@ -100%
+pactl get-sink-volume @DEFAULT_SINK@
+pactl get-sink-volume
+pactl get-sink-volume @DEFAULT_SINK@
+pacmd list-sinks\
+
+pacmd list-sinks\
+
+pactl list-sinks\
+
+celar
+clear
+pactl set-sink-volume 0 100%\
+
+pactl get-sink-volume @DEFAULT_SINK@
+pactl get-sink-volume @DEFAULT_SINK@
+pactl set-sink-volume 0 100%\
+
+pactl get-sink-volume @DEFAULT_SINK@
+pactl set-sink-volume 0 90%\
+
+pactl set-sink-volume 0 990%\
+
+pactl get-sink-volume @DEFAULT_SINK@
+pactl get-sink-volume @DEFAULT_SINK@
+pactl get-sink-volume @DEFAULT_SINK@
+clear
+cleaer
+clear
+ls -al
+ssh
+pacman -Sy openssh
+clear
+sudo systemctl start sshd
+sudo systemctl enable sshd
+clear
+ssh
+ssh-keygen 
+clear
+ls
+cd .ssh
+ls
+cat id_ed25519.pub
+cd
+clear
+pacman -Ss gtk4\
+
+sudo pacman -S gtk3 gtk4\
+
+clear
+ pacman -Ss flat-remix-gtk flat-remix-icons\
+
+ pacman -Ss flat-remix-gtk flat-remix-icons\
+
+ pacman -Ss flat-remix-gtk\
+
+ ysy -Ss flat-remix-gtk\
+
+ yay -Ss flat-remix-gtk\
+
+clear
+ yay -S flat-remix-gtk\
+
+clear
+reboot
+clear
+ls
+git init
+git status
+git status
+clear
+git status
+clear
+clear
+git status
+git commit -m "first commit"
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:miladmxm/linux_conf.git
+git push -u origin main
+clear
+git status
+git status
+clear
+git status
+clear
+git status
+git add .
+git commit -m "added any config"
+git push
+lxappearance-settings --set-theme Flat-Remix-GTK-Blue-Darkest
+getsettings --set-theme Flat-Remix-GTK-Blue-Darkest
+gsettings Flat-Remix-GTK-Yellow-Dark
+gsettings set org.gnome.desktop.interface gtk-theme Flat-Remix-GTK-Yellow-Dark
+gsettings set gtk-theme Flat-Remix-GTK-Yellow-Dark
+code Devlopments/dotfiles
+reload
+startx
+startx
+gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue"
+pacman -S lxappearance
+lxappearance
+lxappearance
+reboot
+startx
+lxappearance
+reboot
+startx
+reboot
+startx
+shutdonw -p now
+shutdown -p now
+shutdown -p now
+shoutdown
+shutdown -P now
+chrome
+clear
+startx
+clear
+reboot
+startx
+reload
+reboot
+printenv\
+
+clear
+printenv | gr gtk\
+
+printenv | grep gtk\
+
+strace
+clear
+exit
+cd /usr/share/themes
+ls
+clear
+ls
+gtk-4.0
+clear
+exit
+relaod
+reload
+exit
+startx
+reload
+relaod
+reload
+reload
+celar
+reload
+clea4r
+clear
+reload
+reload
+reload
+gtk-theme-name
+gtk-theme-name
+gtk-theme-name
+clear
+gsetings
+gsettings
+clear
+gsettings org.gnome.desktop.interface set gtk-theme "Flat-Remix-GTK-Blue-Dark"
+gsettings org.gnome.desktop.interface set gtk-theme "Flat-Remix-GTK-Blue-Dark"
+gsettings set gtk-theme "Flat-Remix-GTK-Blue-Dark"
+clear
+xdg-desktop-portal
+xfconf-query 
+reload
+chrome
+reload
+reload
+reload
+clear
+env
+reload
+env
+reload
+clear
+nettest
+netstat
+clear
+xdg-open
+clear
+xdg-open https://localhost:3000/
+echo $GTK2_RC_FILES
+reboot
+startx
+clear
+exit
+startx
+lxappearance
+clear
+pcmanfm --desktop
+reboot
+startx
+pacman -R lxappearance
+reboot
+vim .config/awesome/modules/menu.lua
+exit
+exit
+exit
+exit
+startx
+xprop
+clear
+xprop
+fc-match awesome
+fc-list awesome
+clear
+fc-list
+fc-list | rg -i awesome
+fc-mach Awesome 7
+fc-match Awesome 7
+fc-match "Awesome 7"
+fc-match "Awesome"
+fc-list -v | rg -i awesome
+fc-match "Font Awesome 7 Brands"
+fc-match "Font Awesome 7 free"
+shutdown -P now
+startx
+shutdown -P now

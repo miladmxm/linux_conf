@@ -12,9 +12,9 @@ local brightness = require("widgets.brightness")
 local keyboard_layout = require("widgets.keyboard")
 local date = require("widgets.date")
 local time = require("widgets.time")
+local network = require("widgets.network")
 
 local module = {}
-
 
 function module.init(screen)
   utils.set_wallpaper()
@@ -22,13 +22,12 @@ function module.init(screen)
     top = beautiful.useless_gap * 2,
   }
 
-
   awful.tag(tags, screen, awful.layout.layouts[1])
+
 
   screen.tray = wibox.widget.systray()
   screen.tray:set_base_size(beautiful.menu.tray.size)
   screen.tray.forced_height = beautiful.menu.tray.height
-
   screen.taglist = awful.widget.taglist {
     screen = screen,
     filter = awful.widget.taglist.filter.all,
@@ -36,14 +35,17 @@ function module.init(screen)
       awful.button({}, 1, function(t) t:view_only() end)
     ),
     widget_template = {
-      widget = wibox.container.background,
-      id = 'background_role',
+      widget=wibox.layout.align.horizontal,
       {
-        widget = wibox.container.margin,
-        left = beautiful.taglist.padding,
-        right = beautiful.taglist.padding,
-        { id = 'text_role', widget = wibox.widget.textbox },
-      },
+        widget = wibox.container.background,
+        id = 'background_role',
+        {
+          widget = wibox.container.margin,
+          left = beautiful.taglist.padding,
+          right = beautiful.taglist.padding,
+          { id = 'text_role', widget = wibox.widget.textbox },
+        },
+      }
     }
   }
 
@@ -55,6 +57,7 @@ function module.init(screen)
     stretch = false,
     margins = beautiful.useless_gap * 2,
   })
+
   screen.wibar.y = beautiful.useless_gap * 2
   screen.wibar:setup {
     right = beautiful.menu.padding.right,
@@ -74,7 +77,8 @@ function module.init(screen)
           battery(),
           date,nil,
           time,
-          keyboard_layout()
+          keyboard_layout(),
+          network
         },
 
       },
