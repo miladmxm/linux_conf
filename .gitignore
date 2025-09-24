@@ -1,6 +1,7 @@
 /*/
 /*
 !.git/
+!.zshenv
 !.gitignore
 .steampid
 .steampath
