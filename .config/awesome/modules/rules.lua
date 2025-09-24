@@ -65,6 +65,10 @@ local rules = {
     properties = { tag = tags[4] },
   },
   {
+    rule = { class = "mpv" },
+    properties = { tag = tags[6] },
+  },
+  {
     rule = { class = "Code" },
     properties = { tag = tags[3] },
   },

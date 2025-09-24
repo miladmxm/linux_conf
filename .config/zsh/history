@@ -1,1061 +1,1078 @@
-code .
-quit
+npx prisma db push
+npx prisma db push
 clear
-exit
-chrome
-google-chrome-stable
-exit
-startx
-startx
-pactl get-sink-volume @DEFAULT_SINK@
-reboot
-startx
-startx
-startx
-reboot
-exit
-startx
-startx
-slayout
-reboot
-startx
-reboot
-startx
-xprop
+npx prisma db seed
 clear
-xprop
-slayout
-xf86-input-wacom
-xsetwacom
-xinput list
-xsetwacom --list devices
+docker ps
 clear
-pacman -Ss xf86-input-wacom
-pacman -Sy xf86-input-wacom
-xsetwacom
-xsetwacom --list devices
-clear
-startx
-clear
-logout
-startx
-shutdown -P now
-exit
-exit
-exit
-exit
-echo $TERM
-exit
-ls
-clear
-clear
-exit
-alacritty --class "Flyterm"
-exit
-px
-ps
-who
-w
-ls
-exit
-nmcli
-nmcli show devices
-nmcli devices list
-nmcli devices wifi list
-nmcli device list
-nmcli device wifi list
-exit
-cd .local/bin
-ls
-chmod +x flyterm
-./flyterm
-tmux has-session -t "flyterm"
-tmux
-clear
-pacman -Sy tmux
-clear
-flyterm
-ls
-clear
-exit
-flyterm
-kill awesome
-plikk awesome
-pkill awesome
-startx
-logout
-pkill code
-exit
-flyterm
-flyterm
-exit
-startx
-clear
-startx
-clear
-logout
-startx
-reboot
-sudo v2ray
-sudo v2rayN
-v2ray
-clear
-ls
-exit
-startx
-reload
-reboot
-flyterm
-startx
-logout
-exit
-cd /home/milad/.local/bin
-ls
-chmod +x battery
-battery
-ls
-clear
-sudo battery
-ba
-battery
-cd /sys/class/power_supply
-ls
-cd BAT1
-ls
-clear
-ls
-cat charge_full
-head -n 1
-head -n 1 charge_full
-bc
-    echo "a = 5; b = 3; a * b" | bc
-pacman -Ss bc
-clear
-exit
-pwd
-cd
-cd /etc/xdg/awesome
-ls
-code .
-exit
-pkill awesome
-battry
-battery
-xkb::group_changed
-s
-s
-ls
-code /usr/share/awesome/
-startx
-startx
-clear
-logout
-pacman -Sy bc
-kbdcfg
-setxkbmap -layout "us,il" -option ""
-setxkbmap -layout "us,il" -option ""
-setxkbmap -layout "us,ir" -option ""
-setxkbmap -layout "us,ir" -option ""
-setxkbmap -layout "us,ir"
-setxkbmap -layout "us,ir"
-setxkbmap -layout "us,ir"
-setxkbmap -layout "us,ir"
-زك�ثشق
-زك�ثشق
-clear
-setxkbmap -layout "$(setxkbmap -query | awk '/layout/{print $2}' | \\
-    awk -F, '{if ($1=="us") print "ir,us"; else print "us,ir"}')" -option "grp:alt_shift_toggle"\
+docker ps
+scrot
+docker exec -it some-postgres psql -U postgres -d postgres\
 
-setxkbmap -layout "$(setxkbmap -query | awk '/layout/{print $2}' | \\
-    awk -F, '{if ($1=="us") print "ir,us"; else print "us,ir"}')" -option "grp:alt_shift_toggle"\
+exit
+npx prisma migrate dev
+npx prisma migrate dev
+clear
+docker ps 
+docker container rm 419
+docker container ls
+docker container stop 419
+docker container rm 419
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres\
 
-setxkbmap -layout "$(setxkbmap -query | awk '/layout/{print $2}' | \\
-    awk -F, '{if ($1=="us") print "ir,us"; else print "us,ir"}')" -option "grp:alt_shift_toggle"\
+clear
+docker ps
+npx prisma db push
+psql -h 127.0.0.1 -U postgres -d postgres\
 
-شصك�
-setxkbmap -layout "$(setxkbmap -query | awk '/layout/{print $2}' | \\
-    awk -F, '{if ($1=="us") print "ir,us"; else print "us,ir"}')" -option "grp:alt_shift_toggle"\
-
-awk
+ ls
+clear
+npx prisma db push
+clear
+npx prisma migrate dev --name init
+clear
+docker p[s
+docker ps
+cleart
+clear
+docker ps
+docker stop e8d
+npx prisma migrate dev --name init
+docker rm e8d
+clear
+npx prisma migrate dev --name init
 celar
 clear
+npx prisma migrate dev --name init
+npx prisma migrate dev --name init
+npx prisma migrate dev --name init
+npx prisma migrate dev --name init
+npx prisma migrate dev --name init
 clear
-setxkbmap -layout "$(setxkbmap -query | awk '/layout/{print $2}' | \\
-    awk -F, '{if ($1=="us") print "ir,us"; else print "us,ir"}')"\
-
-setxkbmap -query
-awk '/layout"
-awk -F ir
+npm run dev
+celar
 clear
-awk -F
-awk -F, ir
-awk -F, 'print ir'
-awk -F, '{print ir}'
+npm run dev
+celar
+exit
+celar
+npm run dev
+npm run dev
 clear
-clear
+npm run dev
+cd ..
+ls
+rm -r nextjs-prisma-docker
+mkdir nextjs-prisma
+cd nextjs-prisma
 code .
-exit
-[200~setxkbmap -v us
-setxkbmap -v us\
-
-setxkbmap -v us\
+celar
+npx create-next-app@latest 
+npx create-next-app@latest .
+clear
+npx create-next-app@latest .
+clear
+clear
+clear
+npm i
+npm run dev
+clear
+npm install prisma tsx --save-dev
+npm install @prisma/extension-accelerate @prisma/client
+npx prisma init --db --output ../app/generated/prisma
+cl4ear
+clear
+risma/schema.prisma
+mkdir prisma
+code schema.prisma
+npx prisma migrate dev --name init
+docker ps
+ls
+npx prisma migrate dev --name init
+npm run dev
+docker ps
+docker stop 3dd
+docker container stop 3dd
+docker container stop 3bb
 clear
 clear
-exit
-setxkbmap -v us\
+docker contaienr rm 3dd
+docker contaienr rm 3bb
+docker contaienr ls -a
+docker contaienr ls 
+docker ps -a
+docker rm 3bb
+clear
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres\
 
-setxkbmap  us\
-
-setxkbmap  ir\
-
-setxkbmap  us\
-
+npx prisma migrate dev --name init
 startx
+sleep N
+sleep now
+sleep -P now
+sleep 1
+netstat -putan | grep ssh\
+
+ lsof -i -a -p 1981\
+
+lsof -i -a -p 5432\
+
+lsof -i 5432
+docker ps
+clear
+docker ps -a
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres -p 5432:5432
+docker ps
+docker ps
+docker ps -a
+dokcer rm some-postgres
+docker container rm a73
+celar
+clear
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres\
+
+docker ps
+clear
+celar
+clear
+lsof -i -a -p 5432 
+sudo lsof -i -P -n | grep
+sudo lsof -i -P -n 
+sudo lsof -i -P -n | grep 5432
+kill 68221
+sudo kill 68221
+sudo kill 68227
+clear
+sudo lsof -i -P -n | grep 5432
+docker ps
+	docker system prune -a
+	docker system prune -a
+docker ps
+	docker prune -a
+	docker container prune -a
+docker container prune -a
+docker container prune 
+clear
+docker ps
+docker rm f91
+docker container rm f9
+docker container rm f91
+docker container stop f91 
+docker container rm f91
+clear
+docker ps
+docker ps -a
+celar
+docker volium ls
+docker volium 
+docker volium
+docker images
+clear
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres\
+
+docker ps
+sudo lsof -i -P -n | grep 5432
+sudo lsof -i -P -n | grep 3000
+sudo lsof -i -P -n | grep 3000
+sudo lsof -i -P -n | grep 3000
+sudo lsof -i -P -n | grep 3000
+sudo lsof -i -P -n | grep 3000
+sudo lsof -i -P -n | grep 3000
+sudo lsof -i -P -n | grep 3000
+sudo lsof -i -P -n | grep 5432
+sudo lsof -i -P -n | grep 5432
+sudo lsof -i -P -n | grep 3000
+docker init
+docker init
+docker compose init
+celar
+clear
+docker init .
+clear
+docker-init
+docker-init
+sutdown -P now
+shutdown -P now
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+code .
+pcaman -Ss lxappearance
+pacman -Ss lxappearance
+pacman -Sy lxappearance
+lxappearance
+startx
+ls
+cd /
+ls
+cd usr/
+ls
+cd ..
+ls
+clear
+ls
+cd dev
+ls
+cd
+ls
+cd
+ls
+cd ..
+ls
+cd ..
+find theme
+find ./ theme
+clear
+cd /usr/share/themes
+ls
+cd ..
+ls
+cd icons
+ls
+cd ../themes
+ls
+yay -Ss Flat-Rmix
+ls
+yay flat remix gtk
+yay flat remix
+clear
+yay flat remix
+shutdown -P now
+exit
+startx
+rebot
 reboot
+exit
+ssh root@91.107.184.72
+cd .ssh
+ls
+cp ../Downloads/ge.sobelz.com_id_ed25519 .
+ls
+ssh root@91.107.184.72 -i ge.sobelz.com_id_ed25519
+clear
+ls
+vim known_hosts.old
+ls
+vim known_hosts
+celar
+clear
+exit
+startx
+smartctl
+nmcli connection show
+nmcli dvice wifi list
+nmcli device wifi list
+nmcli -t device wifi list
+nmcli -f device wifi lis
+nmcli -f IN-USE device wifi lis
+nmcli -f IN-USE,SSID device wifi lis
+clear
+nmcli -f IN-USE,SSID device wifi list
+nmcli device wifi list
+shutdown -P niow
+shutdown -P now
+startx
+ls
+cd Develop
+cd Developments
+ls
+cd Devlopments
+ls
+cd Projects
+ls
+npx create-strapi-app@latest
+npm run dev
+npm run start
+ls
+cd server
+ls
+npm start
+npm run dev
+clear
+cd ..
+shutdown -P now
+logid
+clear
+logid
+pulseaudio
+pactl
+pactl list cards
+pipewire
+pipewire
+systemctl --user restart pipewire
+clear
+clear
+clear
+ls
+exit
+startx
+cd /etc/pulse
+ls
+vim client.conf
+pulse
+lp
+PulseAudio
+vim client.conf
+clear
+vim client.conf
+cd
+clear
+clear
+pacman -Ss pipewire-pulse
+pavucontrol
+pacman -Ss pulseaudio
+pacman -Ss pulseaudio
+pacman -Ss pulseaudio | rg 17.0+r43+g3e2bb8a
+pacman -Ss pulseaudio | rg 17.0
+pacman -S pulseaudio
+libasound
+libasound
+ncpamixer
+load-module module-name-from-list
+sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pavucontrol
+systemctl start pulseaudio.service
+systemctl --user start pulseaudio.service
+systemctl --user enable pulseaudio.service
+pacman -Sy bluez bluez-utilz
+pacman -Sy bluez bluez-utils
+sudo systemctl start bluetooth.service
+sudo systemctl enable bluetooth.service
+clear
+lsmod | grep btusb
+clear
+bluetoothctl
+clear
+bluetoothctl
+reboot
+ثطك�ف
+exit
+bluetoothctl
+exit
+ pacman -Ss mpv
+pacman -Sy mpv
+clear
+exit
+exit
+bluetoothctl
+exit
+startx
+top
+htop
+clear
+xprop
+code .
+celar
+clear
+shutdown -P now
 startx
 shutdown -P now
-picom
-pacman -Ss picom
-pacman Sy picom
-pacman -Sy picom
-clear
-picom --config ./.config/picom/picom.conf
+cd /home/milad/Devlopments/Projects/yatak-randd
 ls
+code .
+ls
+cd wordpress
+ls
+cd wp-content
+cd plugins
+ls
+clear
+ls
+cp ~/Downloads/woocommerce.10.1.2.zip .
+sudo cp ~/Downloads/woocommerce.10.1.2.zip .
+ls
+unzip woocommerce.10.1.2.zip
+sudo unzip woocommerce.10.1.2.zip
+ls
+clear
+ls
+rm woocommerce.10.1.2.zip
+ls
+clear
+sudo rm woocommerce.10.1.2.zip
+ls
+clear
+exit
+suspend
+systemctl suspend
+exit
+pacman -Ss tahoma
+yay tahoma
+clear
+fc-match tahoma
+exit
+docker compose up
+clear
+docker compose up
+clear
+docker compose up
+clear
+docker compose down
+clear
+cd Devlopments/Projects
+ls
+cd yatak-backend
+ls
+clear
+sudo code .
+ls
+code .
+exit
+ls -al
+clear
+ls -al
+clear
+sudo rm -r db
+sudo rm -r wordpress
+clear
+exit
+ls -al
+sudo rm -r wordpress
+sudo rm -r db
+ls
+clear
+ls -al
+sudo chown -R 1000:1000 wordpress\
+
+ls -al
+clear
+docker image
+docker images
+clear
+sudo chown -R 1000:1000 wordpress\
+
+ls -al
+clear
+exit
+ls
+ls -al
+sudo chown -R milad:milad wordpress db\
+
+clear
+ls
+cd wordpress/wp-content/plugins
+ls
+cp ~/Downloads/woocommerce.10.1.2.zip
+cp ~/Downloads/woocommerce.10.1.2.zip .
+ls
+unzip woocommerce.10.1.2.zip
+ls
+rm woocommerce.10.1.2.zip
+clear
+ls
+cd wordpress/wp-content/plugins
+ls
+cp ~/Downloads/persian-woocommerce.zip .
+ls
+unzip persian-woocommerce.zip
+exit
+npx create-next-app@latest .
+npm start
+npm run dev
+clear
+ls
+cd ..
+ls
+mkdir yatak-backend
+ls
+cd yatak-backend
+code .
+clear
+startx
+docker ps
+htop
+su milad
+ls
+su http
+su
+clear
+ls
+ls -al
+clear
+echo UID
+echo $UID
+id -u
+echo $GID
+clear
+docker compose up
+ls
+sudo rm -r db
+sudo rm -r wordpress
+docker compose up
+docker compose down
+clear
+docker compose build --no-cache	
+clear
+docker compose build --no-cache	
+"${UID}:${GID}"
+echo "${UID}:${GID}"
+clear
+docker compose build --no-cache
+clear
+code .env
+docker compose build --no-cache
+docker compose build --no-cache
+clear
+clear
+docker compose build --no-cache
+docker compose build --no-cache
+docker compose build 
+docker compose build
+docker compose build --no-cache
+docker compose up
+clera
+clear
+docker compose up
+clear
+docker compose build 
+docker compose build .
+docker compose build --no-cache
+docker ps
+docker compose build --no-cache
+docker compose build --no-cache
+docker compose build --no-cache
+docker compose build --no-cache
+docker compose up
+docker compose ps
+docker compose down
+clear
+docker compose ps
+rm -r db
+sudo rm -r db
+sudo rm -r wordpress
+clear
+echo id -u
+id -u
+id -g
+docker compose ps
+docker compose up
+clear
+sudo docker compose upp
+sudo docker compose up
+sudo docker compose up
+    export UID=$(id -u)\
+    export GID=$(id -g)
+    export UID=$(id -u)\
+    export GID=$(id -g)
+    export UID=$(id -u)\
+
+    export GID=$(id -g)\
+
+clear
+sudo docker compose up
+clear
+docker compose down
+clear
+ls
+rm -r db
+sudo rm -r db
+sudo rm -r wordpress
+clear
+clear
+docker compose up
+docker compose build
+docker compose build --no-cache
+docker compose up
+clear
+docker compose up
+زك�ثشق
+clear
+docker compose up
+clear
+docker compose down
+docker ps
+docker ls
+docker container 
+docker   prune  -a
+docker container   prune 
+docker images   prune -a
+docker images   prune 
+docker images prune
+docker images
+docker images rm
+docker system   prune 
+docker system   prune -a
+clear
+rm -r wordpress
+sudo rm -r db
+docker compose up
+زك�ثشق
+clear
+ls
+docker compose down
+docker compose up
+docker compose down
+cleare
+clear
+docker compose build --no-cache
+docker compose up
+docker compose restart wordpress\
+
+clear
+docker compose down
+docker compose up
+rm -r wordpress
+ls
+clear
+docker compose build --no-cache
+docker compose up
+clear
+docker compose up
+shutdown -P now
+ls -al
+su http
+su http
+clear
+su root
+clear
+docker containers
+docker container
+docker container ls
+docker container run f87e
+clear
+docker ps
+docker run f87e32
+docker start f87e32
+docer start a4b1e
+docker start a4b1e
+clear
+docker ps
+ls
+cd Devlopments
+ls
+cd Projects
+ls
+cd yatak-backend
+ls
+cd wordpress
+ls
+cd ..
+ls
+clear
+ll
+cd wordpress
+ls
+sudo -e wp-config.php
+clear
+clear
+sudo -e wp-config.php
+exit
+cd ..
+ls
+zip -r customize-restapi.zip customize-restapi
+ls
+unzip customize-restapi.zip
+unzip customize-restapi.zip
+ls
+cd customize-restapi
+ls
+code .
+ls
+cd ..
+ls
+rm customize-restapi.zip
+zip -r customize-restapi.zip customize-restapi
+ls
+clear
+npm i valibot
+npm run dev
+curl --user "API-TOKEN:k54q WUbz WpPv YEtA iIFS inxW" https://localhost:8080/wp-json/wp/v2/users
+curl
+curl --user "API-TOKEN:k54q WUbz WpPv YEtA iIFS inxW" http://localhost:8080/wp-json/wp/v2/users
+curl --user "next-ui:k54q WUbz WpPv YEtA iIFS inxW" http://localhost:8080/wp-json/wp/v2/users
+clear
+exit
+npm i htmlparser2
+npm i node-html-parser
+clear
+exit
+npm run dev
+clear
+npx next typegen
+npm run dev
+clear
+exit
+startx
+docker ps
+shutdown -P now
+docker ps
+npm run dev
+clear
+npm run dev
+clear
+npm run build
+clear
+npm run build
+npm start
+clear
+exit
+systemctl suspend
+exit
+startx
+shutdown -P now
+startx
+shutdown -P now
+blutoothcli
+bluetoothcli
+bluetooth
+bluetoothcli
+bluetoothctl
+clear
+bluetoothctl
+startx
+shutdown -P now
+startx
+shutdown -P now
+bluetoothctl
+clear
+startx
+shutdown -P now
+pacman -Ss deno
+pscman -Sy deno
+pacman -Sy deno
+npm start
+ls
+cd Devlopments/
+ls
+cd Projects
+ls
+cd denolrn
+ls
+cd myprj
+code .
+exit
+ls
+cd Devlopments
+ls
+cd Projects
+ls
+mkdir denolrn
+cd denolrn
+ls
+clear
+vim index.ts
+deno index.ts
+clear
+ls
+rm index.ts
+ls
+deno init myprj
+ls
+cd myprj
+ls
+clear
+vim .
+deno test
+ls
+deno main.ts
+startx
+pacman -Sy deno
+deno
+clear
+deno upgrade
+deno upgrade\
+\
+
+sudo deno upgrade
+clear
+shoutdown -P now
+shoutdown -P now
+shutdown -P now
+exit
+deno run dev
+clear
+cd ..
+ls
+clear
+deno run start
+deno run dev
+deno check main.ts
+cls
+clear
+deno bench
+deno bench .
+deno bench main.ts
+deno bench main.ts
+deno compile main.ts
+clear
+clear
+deno compile main.ts
+clear
+deno compile main.ts
+ls
+ls -al
+du -sh *
+clear
+myprj
+./myprj
+ll myprj
+rm myprj
+ls
+clear
+deno run dev
+deno install npm:express
+celar
+deno install npm:express
+npm run dev
+deno run dev
+clear
+deno run --allow-read npm:cowsay@latest "helomilad"
+deno run --allow-read npm:cowsay@latest "helomilad"
+celar
+clear
+rm -r *
+clear
+deno run init .
+deno init .
+ls
+clear
+deno run dev
+deno lint
+deno ftm
+deno ftm .
+deno fmt
+clear
+deno eval console.log(33)
+deno eval "console.log(33)"
+deno doc
+clear
+deno run dev
+ps
+deno add jsr:@luca/cases
+deno run dev
+clear
+cd ..
+clear
+ls
+deno init --npm hono@latest
+cd my-app
+ls
+code .
+cd ..
+ls
+deno init --npm hono@latest
+ls
+cd myhono
+ls
+vim main.ts
+cd ..
+ls
+deno init --npm hono@latest
+ls
+ls
+cd my
+cd myhono
+ls
+code .
+deno run devv
+deno run dev
+deno serve start
+deno run start
+clear
+deno lint
+deno install
+ls
+clear
+deno start
+deno run start
+clear
+deno run start
+clea
+cd ..
+ls
+startx
+systemctl suspend
+shutdown -P now
+ls
+cd ..
+lls
+ls
+cd clear
+clear
+ls
+cd yatak-
+cd yatak-randd
+ls
+code .
+ls
+vim .
+nmcli device wifi show
+nmcli conecction show
+nmcli connection show
+nmcli device wifi
+nmcli device wifi con "HUAWEI nova 3i" --password "bad68f740a37"
+nmcli device wifi con "HUAWEI nova 3i" -password "bad68f740a37"
+nmcli device wifi con "HUAWEI nova 3i" -p "bad68f740a37"
+nmcli device wifi con "HUAWEI nova 3i" -P "bad68f740a37"
+nmcli device wifi con "HUAWEI nova 3i"
+nmcli device wifi con "HUAWEI nova 3i" password "bad68f740a37"
+nmcli device wifi conn "HUAWEI nova 3i" password "bad68f740a37"
+nmcli conecction show
+nmcli device wifi
+clear
+ls
+ls
+start
+startx
+systemctl suspend
+nmcli
+nmstl
+clear
+nmcli
+nmcli wifi devices show
+clear
+ping sobelz.ir
+ping sobelz.com
+ls
+npm run dev
+clear
+rm -r node_modules
+ls
+npm i
+ls
+clear
+npm start
+clear
+npm run dev
+systemctl suspend
+shutdown -P now
+startx
+reboot
+blutoothctl
+bluetoothctl
+bluetoothctl
+clear
+bluetoothctl
+systemctl status bluetooth
+systemctl restart bluetooth
+sudo systemctl restart bluetooth
+systemctl status bluetooth
+bluetoothctl
+startx
+shutdown -P now
+bluetoothctl
+clear
+bluetoothctl
+clear
+startx
+reboot
+ls
+cd Devlopments
+ls
+cd Projects
+ls
+cd yatak-backend
+ls
+cd wordpress
+ls
+sudo -e wp-config.php
+clear
+exit
+startx
+httpie
+clear
+shutdown -P now
+pacman -Syu httpie
+pacman -Syu httpie
+pacman -Syu httpie
+pacman -Sy httpie
+clear
+systemctl suspend
+systemctl suspend
+exit
+startx
+pacman -Syu
+pacman -Syu
+pacman -Sy copyq
+clear
+copyq
+copyq show
+copyq toggle
+clear
+copyq toggle
+copyq toggle
+copyq
+copyq toggle
+reboot
+startx
+copyq toggle
+copyq toggle
+copyq toggle
+copyq
+shutdown -P now
+startx
+logout
 cd Devlopments
 ls
 cd dotfiles
 ls
-ls -al
-cd .config
-ls
-cd dmenu
-ls
-code dmenurc
-ls
-cd ..
-ls
-clear
-ls
-cp picom ../.config
-clear
-cp -r picom ../.config
-ls
-cd
-clear
-startx
-reboot
-ls
-clear
-reload
-picom -d
-ls
-cd /usr/bin/awesome
-ls
-ls
-cd /usr
-ls
-cd bin
-ls
-cd awesome
-cd ..
-ls
-cd share
-ls
-cd ..
-ls
-cd local
-ls
-cd ..
-clear
-cd bin
-ls
-clear
-ls
-celar
-clear
-man awesome
-startx
-clear
-startx
-startx
-clear
-startx
-clear
-reload
-reload
-clear
-cd /etc/xdg
-ls
-cd awesome
-ls
-code rc.lua
-GTK_THEME=Adwaita:dark
-xrdb -load "$HOME/.config/X11/Xresourcecs"\
-
-gsettings
-gsettings | gr
-gsettings | gr "dark"
-gsettings | grep "ligth"
-xfconf-query
-xfconf-query
-زك�ثشق
-clear
-Adwaita-dark
-reboot
-startx
-startx
-reboot
-code Devlopments/dotfiles
-startx
-logout
-startx
-code Devlopments/dotfiles
-reboot
-reboot
-client
-awesome client
 code .
-code .
-
-
-celar
+startx
 clear
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-wmctrl -l
-awesome-client
-clear
-awesome-client 'for c in client.get() do print(c.name .. " (" .. c.class .. ")") end'
-awesome-client
-awesome-client 'local tag = mouse.screen.selected_tag; for c in tag:clients() do print(c.name .. " (" .. c.class .. ")") end'
-hkk
-ljfljfdls
-clear
-top
-exit
-K
-
-celar
-clear
-op
-exit
-pacman -S scrot
-ls
-cd Pics
-ls
-clear
-     scrot filename.png
-ls
-ls
 exit
 startx
-timedatectl
-sudo timedatectl set-ntp true
-timedatectl
-timedatectl status\
-
-reboot
-startx
-shutdown -P now
-nm
-ls
-cd Downloads
-ls
-unzip landingtapsi.zip
-cd landingtapsi
-ls
-code .
-git init
-clear
-git add .
-git commit -m 'first commit '
-git config --global user.email "miladmxm12@gmail.com"
-git config --global user.name "miladmxm"
-git commit -m 'first commit '
-clear
-startx
-cd Downloads
-ls
-zip -r landingtapsi.zip landingtapsi
-pacman -Ss zip
-pacman -Sy zip
-zip -r landingtapsi.zip landingtapsi
-ls
-nwg-look
-pacman -Ss nwg-look
-xfconf-query
-clear
-shutdown -P now
-pacman -Ss docker
-clear
 exit
-ls
-cd Downloads
-ls
-unzip landingtapsi.zip
-clear
-exit
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash\
-
-nvm
-exit
-nvm
-ls
-ls -al
-cd .config
-ls
-cd nvm
-ls
-zshrv
-zshrc
-ls
-clear
-./nvm.sh
-source ./nvm.sh
-ls
-./install.sh
-clear
-zshrc
-ls
 reload
-nvm
-clear
-nvm list
-cd
-ls
-clear
-echo env
-clear
-env
-zshrc
-reload
-nvm
-clear
-nvm remote-list
-clear
-nvm ls
-nvm remote-ls
-clear
-nvm list
-nvm install 22
-clear
+startx
+exit
+startx
+numlockx
+numlockx on
+pacman -Ss numlockx
+pacman -Sy numlockx
+numlockx on
+numlockx off
+numlockx on
+pacman -Ss Redshift
+pacman -S redshift
+Redshift
+redshift
+become
+redshift -P -O 1000
+redshift -P -O 25000
+redshift -P -O 25000/2
 node
-npm
-clear
-nvm install 24
-node
-clear
-nvm list
-exit
-node
-clear
-nodejs
-clear
-docker
-clear
-node
-    sudo pacman -Syu\
-Q\
-
-lcear
-clear
-pacman -Ss docker
-pacman -Sy docker
-docker
-clear
-docker images
-docker login
-docker login
-clear
-docker login
-clear
-docker ofline
-exit
-startx
-reboot
-node
-docker build -t daroo
-docker build -t daroo .
-sudo docker build -t daroo .
-clear\\
-clear
-clear
-ls
-npm start
-npm install
-npm start
-clear
-npm i -D typescript
-tsc --init
-npx tsc --init
-cd Downloads
-mkdir nodecli
-mv node-cli-app.zip node
-mv node/node-cli-app.zip ..
-ls
-rm node
-ls
-clear
-mv node-cli-app.zip nodecli
-cd nodecli
-ls
-unzip node-cli-app.zip
-ls
-clear
-exit
-cd ..
-ls
-cd nodecli
-ls
-cp tsconfig.json ../LandingTapsi
-npm start
-npm start
-npm start
-node ./src/index.ts
-node
-clear
-cd ..
-ls
-ls
-npm start
-npm i @types/express
-npm i @types/node
-npm i @types/request-ip
-npm i @types/cors
-npm i @types/nodemailer
-npm i envalid
-cd src
-ls
-node
-clear
-cd ..
-ls
-npm i npm i valibot
-npm i valibot
-lcear
-clear
-exit
-    sudo pacman -S docker
-clear
-    sudo systemctl start docker.service\
-
-echo $USER
-sudo usermod -aG docker $USER
-docker --version\
-
-docker run hello-world
-sudo docker run hello-world
-clear
-exit
-reload
-exit
-cd /etc/systemd
-ls
-cat resolved.conf
-clear
-ls -al resolved.conf
-exit
-sudo -e /etc/systemd/resolved.conf
-systemd status NetwordManager
-systemctl status networkmanager
-systemctl status NetworkManager
-systemctl reload NetworkManager
-sudo systemctl reload NetworkManage
-sudo systemctl reload NetworkManager
-sudo systemctl restart NetworkManager
-clear
-sudo systemctl status NetworkManager
-sudo -e /etc/systemd/resolved.conf
-sudo systemctl restart NetworkManager
-sudo systemctl status NetworkManager
-startx
-node cron.ts
-clear
-ls
-node src/cron.ts
-node src/cron.ts
-node src/cron.ts
-node 
-node -e console.log("helo")
-node -e 'console.log("helo")'
-node src/utils/dateString.ts
-node src/utils/dateString.ts
-node src/utils/dateString.ts
-clear
-npm start
-npm start
-clear
-node -v
-nvm list
-nvm use 24
-node -v
-clear
-npm start
-npm start
-clear
-npm start
-npm start
-clear
-npm start
-npm start
-clear
-npm start
-npm start
-clear
-reboot
-ls
-cd /etc
-ls
-clear
-clear
-exit
-ls
-cd /etc/systemd/network
-ls
-ls
-ls -al
-nmcli con mod 
-nmcli con show
-nmcli con mod "Note13pro" ipv4.dns "178.22.122.100,185.51.200.2"
-sudo systemctl restart NetworkManager
-docker login
- exit
-docker images
-exit
-        sudo systemctl status docker
-        sudo systemctl start docker
-        sudo systemctl enable docker\ 
-        sudo systemctl enable docker
-exit
-exit
-docker containers
-docker container
-celar
-clear
-docker -it tabsi 
-docker exec it tabsi bash
-docker exec -it tabsi bash
-docker exec -it tabsi
-docker exec -it tabsi bash
-docker ps
-docker exec -it 2a266 bash
-docker exec -it 2a26604 bash
-clear
-git status
-clear
-git add .
-clear
-git commit -m "config docker file"
-clear
-cd ..
-ls
-rm -r nodecli
-ls
-zip -r LandingTapsi.zip LandingTapsi
-ls
-clear
-exit
-clear
-git init
-git add .
-git commit -m "typescript working"
-clear
-docker run build -t "DarooLanding"
-docker login
-docker login
-clear
-docker run build -t "DarooLanding"
-docker run build -t "DarooLanding" .
-docker
-clear
-docker images
-docker images
-docker run build -t "Tapsi" .
-docker run build "Tapsi" .
-dokcer loign
-docker login
-clear
-docker run build "Tapsi" .
-docker build -t "Tapsi" .
-clear
-docker build -t tabsi
-clear
-pacman -Ss docker
-clear
-docker build -t tabsi .
-clear
-clear
-docker build -t tabsi .
-clear
-docker images
-docker run tabsi
-clear
-docker run -p 3000:3000 tabsi
-clear
-docker run -p 3000:3000 tabsi
-clear
-exit
-nmcli con mod "Note13pro" ipv4.dns ""
-systemctl reload NetworkManager
-sudo systemctl reload NetworkManager
-sudo systemctl restart NetworkManager
-clear
-exit
-cd ..
-clear
-ls
-cd LandingTapsi
-ls
-rm -r node_modules
-ls
-cd ..
-ls
-cp LandingTapsi.zip ..
-ls
-rm LandingTapsi.zip
-zip -r LandingTapsi.zip LandingTapsi
-startx
-cat /etc/systemd/resolved.conf
-sudo -e /etc/systemd/resolved.conf
-clear
-ls
-sudo -e /etc/resolv.conf
-systemctl reload NetworkManager
-sudo systemctl restart NetworkManager
-sudo -e /etc/resolv.conf
-clewar
-clear
-clear
-pacman -Sy docker-compose docker-buildx
-clear
-shutdown -P now
-nmcli connection show
-nmcli device wifi list
-clear
-nmcli device wifi connect "Note13pro" "
-nmcli device wifi connect "Note13pro" password "12345678M"
-nmcli device wifi connect "Note13pro" password "12345678M"
-clear
-nmcli device wifi connect "Note13pro"
-nmcli connection mod "Note13pro" password "12345678M"
-nmcli connection show
-clear
-nmcli device wifi list
-nmcli device wifi connect "Note13pro" password "12345678M"
-clear
-nmcli -t -f "Note13pro" con
-nmcli device wifi list
-nmcli device wifi -t -f "Note13pro" con
-nmcli device wifi -f "Note13pro" con
-nmcli c delete Note13pro
-clear
-nmcli device wifi list
-nmcli device wifi connect "Note13pro" password "12345678M"
-clear
-exit
-ls
-cd .local/bin
-ls
-chmod +x vol
-vol 2
-vol 122
-clear
-vol
-vol
-vol
-vol
-vol
-vol
-pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%' | head -1 | tr -d '%'
-pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%'
-pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%' | head -1
-pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%' | head -1
-pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+%' | head -1 | tr -d '%'
-vol 15%
-vol 15%
-vol 15%
-vol 15%
-vol 15%
-vol 15%
-vol 15%
-vol 15%
-vol 15%
-vol 15%
-vol 150%
-vol 150%
-vol +150%
-vol -150%
-clear
-vol -150%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -50%
-vol -504%
-vol 504%
-vol 504%
-vol 504%
-vol 504%
-vol 504%
-vol +504%
-vol 504%
-vol 504%
-volume 40%
-volume 408%
-volume -40%
-volume -40%
-volume -40%
-volume -40%
-clear
-volume -40%
-startx
-clear
-exit
-startx
-pactl get-sink-volume @DEFAULT_SINK@
-clear
-aclear
-clear
-pactl set-sink-volume @DEFAULT_SINK@ +100%
-pactl get-sink-volume @DEFAULT_SINK@
-pactl set-sink-volume @DEFAULT_SINK@ -100%
-pactl get-sink-volume @DEFAULT_SINK@
-pactl get-sink-volume
-pactl get-sink-volume @DEFAULT_SINK@
-pacmd list-sinks\
-
-pacmd list-sinks\
-
-pactl list-sinks\
-
-celar
-clear
-pactl set-sink-volume 0 100%\
-
-pactl get-sink-volume @DEFAULT_SINK@
-pactl get-sink-volume @DEFAULT_SINK@
-pactl set-sink-volume 0 100%\
-
-pactl get-sink-volume @DEFAULT_SINK@
-pactl set-sink-volume 0 90%\
-
-pactl set-sink-volume 0 990%\
-
-pactl get-sink-volume @DEFAULT_SINK@
-pactl get-sink-volume @DEFAULT_SINK@
-pactl get-sink-volume @DEFAULT_SINK@
-clear
-cleaer
-clear
-ls -al
-ssh
-pacman -Sy openssh
-clear
-sudo systemctl start sshd
-sudo systemctl enable sshd
-clear
-ssh
-ssh-keygen 
-clear
-ls
-cd .ssh
-ls
-cat id_ed25519.pub
-cd
-clear
-pacman -Ss gtk4\
-
-sudo pacman -S gtk3 gtk4\
+redshift -P -O 12500
+redshift -l '52.090736:5.121420' &\
 
 clear
- pacman -Ss flat-remix-gtk flat-remix-icons\
+redshift -l '35.620940, 51.341852'
+redshift -l '35.620940,51.341852'
+redshift -l '35.620940:51.341852'
+pkill -USR1 redshift\
 
- pacman -Ss flat-remix-gtk flat-remix-icons\
+pkill -USR1 redshift\
 
- pacman -Ss flat-remix-gtk\
-
- ysy -Ss flat-remix-gtk\
-
- yay -Ss flat-remix-gtk\
-
+pkill -USR1 redshift\
 clear
- yay -S flat-remix-gtk\
-
+redshift -l list
+redshift -l "35.620940:51.341852"
+picom
 clear
-reboot
-clear
-ls
-git init
-git status
-git status
-clear
-git status
-clear
-clear
-git status
-git commit -m "first commit"
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:miladmxm/linux_conf.git
-git push -u origin main
-clear
-git status
-git status
-clear
-git status
-clear
-git status
-git add .
-git commit -m "added any config"
-git push
-lxappearance-settings --set-theme Flat-Remix-GTK-Blue-Darkest
-getsettings --set-theme Flat-Remix-GTK-Blue-Darkest
-gsettings Flat-Remix-GTK-Yellow-Dark
-gsettings set org.gnome.desktop.interface gtk-theme Flat-Remix-GTK-Yellow-Dark
-gsettings set gtk-theme Flat-Remix-GTK-Yellow-Dark
-code Devlopments/dotfiles
-reload
-startx
-startx
-gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue"
-pacman -S lxappearance
-lxappearance
-lxappearance
-reboot
-startx
-lxappearance
-reboot
-startx
-reboot
-startx
-shutdonw -p now
-shutdown -p now
-shutdown -p now
-shoutdown
-shutdown -P now
-chrome
-clear
-startx
-clear
-reboot
-startx
-reload
-reboot
-printenv\
-
-clear
-printenv | gr gtk\
-
-printenv | grep gtk\
-
-strace
-clear
-exit
-cd /usr/share/themes
-ls
-clear
-ls
-gtk-4.0
-clear
-exit
-relaod
-reload
-exit
-startx
-reload
-relaod
-reload
-reload
-celar
-reload
-clea4r
-clear
-reload
-reload
-reload
-gtk-theme-name
-gtk-theme-name
-gtk-theme-name
-clear
-gsetings
-gsettings
-clear
-gsettings org.gnome.desktop.interface set gtk-theme "Flat-Remix-GTK-Blue-Dark"
-gsettings org.gnome.desktop.interface set gtk-theme "Flat-Remix-GTK-Blue-Dark"
-gsettings set gtk-theme "Flat-Remix-GTK-Blue-Dark"
-clear
-xdg-desktop-portal
-xfconf-query 
-reload
-chrome
-reload
-reload
-reload
-clear
-env
-reload
-env
-reload
-clear
-nettest
-netstat
-clear
-xdg-open
-clear
-xdg-open https://localhost:3000/
-echo $GTK2_RC_FILES
-reboot
-startx
-clear
-exit
-startx
-lxappearance
-clear
-pcmanfm --desktop
-reboot
-startx
-pacman -R lxappearance
-reboot
-vim .config/awesome/modules/menu.lua
-exit
-exit
-exit
-exit
-startx
-xprop
-clear
-xprop
-fc-match awesome
-fc-list awesome
-clear
-fc-list
-fc-list | rg -i awesome
-fc-mach Awesome 7
-fc-match Awesome 7
-fc-match "Awesome 7"
-fc-match "Awesome"
-fc-list -v | rg -i awesome
-fc-match "Font Awesome 7 Brands"
-fc-match "Font Awesome 7 free"
+redshift -t
+redshift -t "night"
+redshift -t night
+redshift -t night
+redshift -t daynamic
+redshift '4500K'
+redshift -t DAY:NIGHT
+redshift -P -O '4500'
+redshift -P -O '4500'
+redshift -P -O 4500
+redshift -P -O 4500
+randr
+xrandr --auto
+redshift -P -O 4500
+redshift -P -O randr 4500
+redshift -P -O randr "4500K"
+redshift -P -O "4500K"
+redshift -P -O "4500K" -m "randr"
+shutdown -P nnow
 shutdown -P now
 startx
+systemctl suspend
 shutdown -P now
+startx
+reboot

@@ -6,11 +6,53 @@ local awful = require("awful")
 local gears = require("gears")
 local connectedColor = beautiful.accent
 local disconnectedColor = beautiful.mute
-
 local network = {}
 
 local network_state = {status = false};
 
+
+-- local function showVW()
+    
+-- end
+awful.spawn.easy_async("")
+-- awful.popup {
+--     widget = {
+--         {
+--             {
+--                 text   = "foobar",
+--                 widget = wibox.widget.textbox
+--             },
+--             {
+                
+--                     {
+--                     text   = "foobar",
+--                     widget = wibox.widget.textbox
+--                     },
+--                     bg     = "#ff00ff",
+--                     clip   = true,
+--                     shape  = gears.shape.rounded_bar,
+--                     widget = wibox.widget.background
+          
+--             },
+--             {
+--                 value         = 0.5,
+--                 forced_height = 30,
+--                 forced_width  = 100,
+--                 shape  = gears.shape.rounded_bar,
+--                 widget        = wibox.widget.progressbar
+--             },
+--             layout = wibox.layout.fixed.vertical,
+--         },
+--         margins = 10,
+--         widget  = wibox.container.margin
+--     },
+--     border_color = beautiful.mute,
+--     border_width = 2,
+--     placement    = awful.placement.centered,
+--     ontop = true,
+--     shape        = gears.shape.rounded_rect,
+--     visible      = true,
+-- }
 local function toggle_network_status()
     local net_status = "on"
     if(network_state.status)then
@@ -22,12 +64,9 @@ local function toggle_network_status()
     end)
 end
 
-local function set_icon_color(icon_name,color)
-    return gears.color.recolor_image(beautiful.icons_path .. icon_name , color)
-end
 
 local network_icon = wibox.widget {
-    image=set_icon_color("PiCellSignalFullBold.svg",beautiful.mute),
+    image=Icons.get_icon_with_color("signalFull",beautiful.mute),
     resize = true,
     forced_width=20,
     forced_height=20,
@@ -48,15 +87,11 @@ network.net_widget = wibox.widget {
 }
 function network:set_widget_icon()
         if(network_state.status)then
-            network_icon.image = gears.color.recolor_image(beautiful.icons_path .. "PiCellSignalFullBold.svg", beautiful.mute)
+            network_icon.image = Icons.get_icon_with_color("signalFull", disconnectedColor)
         else
-            network_icon.image = gears.color.recolor_image(beautiful.icons_path .. "PiCellSignalSlashBold.svg", beautiful.mute)
+            network_icon.image = Icons.get_icon_with_color("signalSlash", disconnectedColor)
         end
 end
-
-
-
-
 
 local function check_network_status()
         awful.spawn.easy_async("nmcli networking",function (out)
@@ -85,15 +120,12 @@ function network:update()
     if(network_state.status) then
         awful.spawn.easy_async("nmcli -t -f STATE,CONNECTIVITY general status",function (out)
             if(out:match("connected:full")) then
-                network_icon:set_image(set_icon_color("PiCellSignalFullBold.svg",beautiful.accent))
+                network_icon:set_image(Icons.get_icon_with_color("signalFull",connectedColor))
             else
-                network_icon:set_image(set_icon_color("PiCellSignalFullBold.svg",beautiful.mute))
+                network_icon:set_image(Icons.get_icon_with_color("signalFull",disconnectedColor))
             end
         end)
     end
-    
 end
 
-network:init()
-
-return network.net_widget
+return network:init()

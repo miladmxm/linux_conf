@@ -11,7 +11,6 @@ theme.assets_path = os.getenv("HOME") .. "/.config/awesome/assets/"
 theme.icons_path = theme.assets_path .. "/icons/"
 
 theme.font          = "Roboto 12"
-theme.font_icon          = "Font Awesome 7 Free"
 theme.fg            = colors.fg
 theme.bg            = colors.bg
 

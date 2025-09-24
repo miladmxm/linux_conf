@@ -1,8 +1,12 @@
 xrdb -load "$HOME/.config/X11/Xresourcecs"
 setxkbmap -option caps:escape
 
+
+numlockx on &
 slayout &
+redshift -l '35.620940:51.341852' -m randr -v &
 sxhkd &
+copyq &
 flyterm &
 picom -b
 
